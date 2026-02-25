@@ -1,0 +1,42 @@
+# ── Flutter / Dart ──────────────────────────────────────────────────────────
+prompt_optimizer/.dart_tool/
+prompt_optimizer/.flutter-plugins
+prompt_optimizer/.flutter-plugins-dependencies
+prompt_optimizer/.packages
+prompt_optimizer/build/
+prompt_optimizer/.pub-cache/
+flutter-app/.dart_tool/
+flutter-app/.flutter-plugins
+flutter-app/.flutter-plugins-dependencies
+flutter-app/.packages
+flutter-app/build/
+flutter-app/.pub-cache/
+
+# Key file – keep out of git
+prompt_optimizer/google-services.json
+flutter-app/google-services.json
+prompt_optimizer/GoogleService-Info.plist
+flutter-app/GoogleService-Info.plist
+
+# ── Node / Python backend ────────────────────────────────────────────────────
+prompt-optimizer-backend/node_modules/
+prompt-optimizer-backend/__pycache__/
+prompt-optimizer-backend/*.pyc
+prompt-optimizer-backend/.env
+prompt-optimizer-backend/dist/
+prompt-optimizer-backend/.venv/
+prompt-optimizer-backend/venv/
+
+# ── IDE & OS ─────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ── Internal agent / tool folders ────────────────────────────────────────────
+.claude/
+stitch-skills/
+
+# ── Nested git repos (empty / uninitialized) ──────────────────────────────────
+flutter-app/
